@@ -1,5 +1,5 @@
-//This code draw the histogram of pulseH for MinBias events(when triggerBits==4) and do the Gaussian Fit and extract the values of mean and sigma.Also prints the values of mean+3sigma.
-// Which is later utilise for data cut.We are going to use data cut conditions PMT Hit>3 if the pulseH >mu+3sigma during data selection for Michel electron calibration analysis.
+//This code draws the histogram of pulseH for MinBias events(when triggerBits==4) and does the Gaussian Fit and extract the values of mean and sigma. Also prints the values of mean+3sigma.
+// Which is later used for the data cut. We will use data cut conditions PMT Hit > 3 if the pulseH >mu+3sigma during data selection for Michel electron calibration analysis.
 #include <iostream>
 #include <TFile.h>
 #include <TTree.h>
